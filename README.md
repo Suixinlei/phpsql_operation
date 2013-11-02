@@ -1,4 +1,7 @@
 phpsql_operation
 ================
 
-this is a class to provide method to operate sql
+  这是一个给php用的标准类，每次用的时候都要先init，并且修改位于网页底部的config，然后就可以使用了的。
+	开发用途是为了减轻大量php调用sql的时候会产生的大量代码，用该类使用封装方法有助于提高间接性的说。
+	存在debug模式，暂不开放说明，
+	源代码为discuz！底部的一个数据操作类，经过修改后提交上来。
